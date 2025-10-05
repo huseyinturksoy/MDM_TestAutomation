@@ -15,7 +15,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources",
         glue = "com/mdm/step_defs",
         dryRun = false,
-        tags = "@device"
+        tags = "@smoke"
 
 )
 public class CukesRunner {

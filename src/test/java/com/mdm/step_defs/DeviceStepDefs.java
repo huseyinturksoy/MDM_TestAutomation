@@ -51,7 +51,7 @@ public class DeviceStepDefs {
           */
         String csvContent = Driver.csvContent;
 
-        /** for example we can assert the table headers are included properly or not */
+        /** for example, we can assert the table headers are included properly or not */
         Assert.assertTrue(csvContent.contains("Famoco ID"));
         Assert.assertTrue(csvContent.contains("Device Note"));
         Assert.assertTrue(csvContent.contains("IMEI"));
