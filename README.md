@@ -15,4 +15,4 @@ Developed by
 Huseyin Turksoy
 Test Automation Engineer
 qahuseyint@gmail.com
-+32 456 92 07 02
+
