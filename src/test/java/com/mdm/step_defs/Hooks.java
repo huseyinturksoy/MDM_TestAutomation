@@ -15,7 +15,7 @@ public class Hooks {
     public void horizontalLineStart(Scenario scenario){
         System.err.println("------------------- START STEP -------------------");
 
-        String featureName = scenario.getUri().toString();
+        String featureName = scenario.getName().toString();
         System.out.println("Running feature: " + featureName);
 
 
